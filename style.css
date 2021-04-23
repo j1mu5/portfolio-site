@@ -45,10 +45,6 @@ html {
   transform: scale(1.05);
 }
 
-.me-image {
-  max-width: 300px;
-}
-
 .submit-button {
   border: none;
 }
