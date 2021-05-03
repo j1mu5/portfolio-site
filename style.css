@@ -50,3 +50,23 @@
 .footer-icon:hover {
   color: white;
 }
+
+#about-me-text {
+  visibility: hidden;
+ }
+
+#my-photo {
+  visibility: hidden;
+}
+
+.contact-box {
+  max-width: 700px;
+}
+
+
+
+@media only screen and (min-width: 1028px) {
+  #me-photo {
+    max-width: 75%;
+  }
+}

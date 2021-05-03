@@ -1,9 +1,9 @@
 <!-- CONTACT -->
 <div class="container-fluid p-5" id="contact">
 
-    <div class="container w-75">
+    <div class="container w-md-50 contact-box">
 
-        <h1 class="display-5 fw-bold my-logo text-center gradient-text">Contact Me</h1>
+        <h1 class="display-5 fw-bold my-logo text-center gradient-text heading-ani animate__animated">Contact Me</h1>
 
         <form class="" method="POST" action="index.php#contact">
 

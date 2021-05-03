@@ -75,7 +75,7 @@ $projects = array(
 <div class="container-fluid" id="projects">
   <div class="container p-5">
 
-    <h1 class="display-5 fw-bold my-logo text-center gradient-text">Portfolio</h1>
+    <h1 class="display-5 fw-bold my-logo text-center gradient-text heading-ani animate__animated ">Portfolio</h1>
 
 
     <div class="d-flex w-100 flex-wrap justify-content-evenly">
