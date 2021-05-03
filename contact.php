@@ -1,27 +1,74 @@
 <!-- CONTACT -->
 <div class="container-fluid p-5" id="contact">
-  <div class="container w-75">
 
-    <h1 class="display-5 fw-bold my-logo text-center gradient-text">Contact Me</h1>
+    <div class="container w-75">
 
-    <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label">Full Name</label>
-      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
+        <h1 class="display-5 fw-bold my-logo text-center gradient-text">Contact Me</h1>
+
+        <form class="" method="POST" action="index.php#contact">
+
+            <div class="mb-3">
+                <label for="fullName" class="form-label">Name</label>
+                <input
+                    type="text"
+                    class="form-control"
+                    id="fullName"
+                    name="fullName"
+                    placeholder="Name"
+                    value="<?php echo htmlspecialchars($fullName); ?>"
+                >
+            </div>
+            <?php if ($errors['fullName'] != '') : ?>
+                <div class="alert alert-danger" role="alert">
+                    <?php echo $errors['fullName']; ?>
+                </div>
+            <?php endif; ?>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="name@example.com"
+                    name="email"
+                    value="<?php echo htmlspecialchars($email); ?>"
+                >
+            </div>
+            <?php if ($errors['email'] != '') : ?>
+                <div class="alert alert-danger" role="alert">
+                    <?php echo $errors['email']; ?>
+                </div>
+            <?php endif; ?>
+
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                    class="form-control"
+                    id="message"
+                    rows="3"
+                    name="message"
+                ><?php echo htmlspecialchars($message); ?></textarea>
+            </div>
+            <?php if ($errors['message'] != '') : ?>
+                <div class="alert alert-danger" role="alert">
+                    <?php echo $errors['message']; ?>
+                </div>
+            <?php endif; ?>
+
+            <?php if ($success) : ?>
+                <div class="alert alert-success" role="alert">
+                    Thanks <?php echo $fullName ?> for reaching out, I will be in contact soon.
+                </div>
+            <?php endif; ?>
+
+            <div class="col-auto text-center">
+                <button
+                    name="submit"
+                    type="submit"
+                    class="btn btn-primary mb-3 background-grad submit-button" >Submit
+                </button>
+            </div>
+        </form>
     </div>
-
-    <div class="mb-3">
-      <label for="exampleFormControlInput2" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
-    </div>
-
-    <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-
-    <div class="col-auto text-center">
-      <button type="submit" class="btn btn-primary mb-3 background-grad submit-button" disabled>Submit</button>
-    </div>
-
-  </div>
 </div>

@@ -9,7 +9,7 @@ $projects = array(
   array(
     "projectTitle"  => "Javascript Calculator",
     "techUsed"      => "HTML CSS JavaScript React",
-    "liveSite"      => "j1mu5.github.io/frontend-calculator/",
+    "liveSite"      => "https://j1mu5.github.io/frontend-calculator/",
     "repo"          => "https://github.com/j1mu5/frontend-calculator"),
   array(
     "projectTitle"  => "Frontend Mentor - Social Media Dashboard",

@@ -8,6 +8,12 @@
      </a>
    </span>
 
+    <span class="h3 m-3">
+        <a href="https://twitter.com/j1mu5" target="_blank" class="footer-icon">
+            <i class="bi bi-twitter d-print-inline-block"></i>
+        </a>
+    </span>
+
   <span class="h3 m-3">
     <a href="https://github.com/j1mu5" target="_blank"class="footer-icon">
       <i class="bi bi-github d-print-inline-block"></i>
