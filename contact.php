@@ -62,6 +62,17 @@
                 </div>
             <?php endif; ?>
 
+            <div class="mb-3 phone-form-box">
+                <label for="phoneNumber" class="form-label">Phone Number</label>
+                <input
+                    type="number"
+                    class="form-control"
+                    id="phoneNumber"
+                    placeholder="name@example.com"
+                    name="phoneNumber"
+                >
+            </div>
+
             <div class="col-auto text-center">
                 <button
                     name="submit"

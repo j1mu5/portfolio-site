@@ -35,7 +35,7 @@ $errors = array(
 );
 
 
-if (isset($_POST['submit'])) {
+if (isset($_POST['submit']) && empty($_POST['phoneNumber'])) {
 //    function_alert('Submit Pressed');
 
     // Name Validation
