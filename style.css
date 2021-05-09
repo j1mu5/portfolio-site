@@ -2,11 +2,69 @@
   border: 1px solid red;
 } */
 
-.background-grad {
+/* .background-grad {
   background: rgb(34,48,195);
   background: linear-gradient(0deg, rgba(34,48,195,1) 9%, rgba(216,45,253,1) 98%);
+} */
+
+
+.background-grad {
+    background: linear-gradient(104deg, #2230c3, #d82dfd);
+    background-size: 400% 400%;
+
+    -webkit-animation: blended-bg 9s ease infinite;
+    -moz-animation: blended-bg 9s ease infinite;
+    -o-animation: blended-bg 9s ease infinite;
+    animation: blended-bg 9s ease infinite;
 }
 
+@-webkit-keyframes blended-bg {
+    0% {
+        background-position: 72% 0%
+    }
+    50% {
+        background-position: 29% 100%
+    }
+    100% {
+        background-position: 72% 0%
+    }
+}
+
+@-moz-keyframes blended-bg {
+    0% {
+        background-position: 72% 0%
+    }
+    50% {
+        background-position: 29% 100%
+    }
+    100% {
+        background-position: 72% 0%
+    }
+}
+
+@-o-keyframes blended-bg {
+    0% {
+        background-position: 72% 0%
+    }
+    50% {
+        background-position: 29% 100%
+    }
+    100% {
+        background-position: 72% 0%
+    }
+}
+
+@keyframes blended-bg {
+    0% {
+        background-position: 72% 0%
+    }
+    50% {
+        background-position: 29% 100%
+    }
+    100% {
+        background-position: 72% 0%
+    }
+}
 
 /*
 #D82DFD
@@ -14,63 +72,70 @@
  */
 
 .my-logo {
-  font-family: 'Permanent Marker', cursive;
+    font-family: 'Permanent Marker', cursive;
 }
 
 /*
  TEXT gradient - https://fossheim.io/writing/posts/css-text-gradient/
 */
 .gradient-text {
-  background-color: #2230C3;
-  background-image: linear-gradient(0deg, rgba(34,48,195,1) 9%, rgba(216,45,253,1) 98%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+    background-color: #2230C3;
+    background-image: linear-gradient(0deg, rgba(34, 48, 195, 1) 9%, rgba(216, 45, 253, 1) 98%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
 .grow {
-  transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
 }
 
 .grow:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .submit-button {
-  border: none;
+    border: none;
 }
 
 .footer-icon {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .footer-icon:hover {
-  color: white;
+    color: white;
 }
 
 #about-me-text {
-  visibility: hidden;
- }
+    visibility: hidden;
+}
 
 #my-photo {
-  visibility: hidden;
+    visibility: hidden;
 }
 
 .contact-box {
-  max-width: 700px;
+    max-width: 700px;
 }
 
 .phone-form-box {
-  display: none;
+    display: none;
 }
 
 
-
 @media only screen and (min-width: 1028px) {
-  #me-photo {
-    max-width: 75%;
-  }
+    #me-photo {
+        max-width: 75%;
+    }
+}
+
+.text-xs-center {
+    text-align: center;
+}
+
+.g-recaptcha {
+    display: inline-block;
 }
