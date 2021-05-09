@@ -8,7 +8,7 @@
         <form class="" method="POST" action="index.php#contact" id="contact-form">
 
             <div class="mb-3">
-                <label for="fullName" class="form-label">Name</label>
+                <label for="fullName" class="form-label my-logo">Name</label>
                 <input
                         type="text"
                         class="form-control"
@@ -25,7 +25,7 @@
 			<?php endif; ?>
 
             <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
+                <label for="email" class="form-label my-logo">Email address</label>
                 <input
                         type="email"
                         class="form-control"
@@ -42,7 +42,7 @@
 			<?php endif; ?>
 
             <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
+                <label for="message" class="form-label my-logo">Message</label>
                 <textarea
                         class="form-control"
                         id="message"
@@ -76,11 +76,12 @@
                 <button
                         name="submit"
                         type="submit"
-                        class="btn-primary m-3 background-grad submit-button g-recaptcha"
+                        class="btn-primary m-3 py-2 px-3 background-grad submit-button rounded-pill my-logo"
+                        class="g-recaptcha"
                         data-sitekey="6LdC18caAAAAAKabgGgCoWCC7gA-6_HhwYHtIb8O"
                         data-callback='onSubmit'
-                        data-action='submit'
-                >Submit
+                        data-action='submit'>
+                Submit
                 </button>
             </div>
         </form>

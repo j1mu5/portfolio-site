@@ -11,7 +11,6 @@
 .background-grad {
     background: linear-gradient(104deg, #2230c3, #d82dfd);
     background-size: 400% 400%;
-
     -webkit-animation: blended-bg 9s ease infinite;
     -moz-animation: blended-bg 9s ease infinite;
     -o-animation: blended-bg 9s ease infinite;

@@ -12,7 +12,14 @@
     <a href="https://github.com/j1mu5" target="_blank" class="footer-icon grow grow:hover">
       <i class="bi bi-github d-print-inline-block"></i>
     </a>
-  </span>
+    </span>
+
+    <span class="h3 m-3">
+    <a href="https://twitter.com/j1mu5" target="_blank" class="footer-icon grow grow:hover">
+      <i class="bi bi-twitter d-print-inline-block"></i>
+    </a>
+    </span>
+
 
     <p class="m-0 mt-3">&#169; James Chance 2020 - <?php echo date("Y"); ?></p>
 </div>
