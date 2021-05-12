@@ -1,5 +1,5 @@
 <!-- HOME -->
-<div class="container-fluid bg-primary text-white vh-100 d-flex justify-content-center align-items-center background-grad">
+<div class="container-fluid text-white vh-100 d-flex justify-content-center align-items-center">
     <div class="wallpaper"></div>
     <div class="container d-flex flex-column text-center">
         <h1 class="display-1 animate__animated animate__bounceIn my-logo text-light">James Chance</h1>

@@ -1,12 +1,12 @@
 /* * {
   border: 1px solid red;
-} */
+} 
 
-/* .background-grad {
+.background-grad {
   background: rgb(34,48,195);
   background: linear-gradient(0deg, rgba(34,48,195,1) 9%, rgba(216,45,253,1) 98%);
-} */
-
+}
+*/
 
 .background-grad {
     background: linear-gradient(104deg, #2230c3, #d82dfd);
@@ -65,10 +65,6 @@
     }
 }
 
-/*
-#D82DFD
-#2230C3
- */
 
 .my-logo {
     font-family: 'Permanent Marker', cursive;
@@ -116,9 +112,6 @@
     visibility: hidden;
 }
 
-.contact-box {
-    max-width: 700px;
-}
 
 .phone-form-box {
     display: none;
@@ -138,3 +131,4 @@
 .g-recaptcha {
     display: inline-block;
 }
+

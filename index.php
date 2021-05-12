@@ -5,7 +5,8 @@ $success = false;
 
 function IsInjected($str)
 {
-	$injections = array('(\n+)',
+	$injections = array(
+		'(\n+)',
 		'(\r+)',
 		'(\t+)',
 		'(%0A+)',
@@ -33,7 +34,7 @@ $errors = array(
 
 
 if (isset($_POST['submit']) && empty($_POST['phoneNumber'])) {
-//    function_alert('Submit Pressed');
+	//    function_alert('Submit Pressed');
 
 	// Name Validation
 	if (empty($_POST['fullName'])) {
@@ -92,8 +93,6 @@ if (isset($_POST['submit']) && empty($_POST['phoneNumber'])) {
 		$success = true;
 		$fullName = $email = $message = '';
 	}
-
-
 }
 
 ?>

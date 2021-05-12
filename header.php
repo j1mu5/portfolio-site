@@ -15,4 +15,4 @@
     <title>James Chance | Web Developer</title>
 </head>
 
-<body>
+<body class="background-grad">
