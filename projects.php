@@ -2,6 +2,12 @@
 
 $projects = array(
 	array(
+		"projectTitle" => "Car Body Shop",
+		"techUsed" => ['HTML', 'CSS', 'Bootstrap' 'ParcelJS'],
+		"liveSite" => "https://vigilant-visvesvaraya-8f2364.netlify.app/",
+		"repo" => "https://github.com/j1mu5/car-auto-bodies"
+	),
+	array(
 		"projectTitle" => "Meme Generator",
 		"techUsed" => ['HTML', 'CSS', 'JavaScript', 'React', 'API'],
 		"liveSite" => "https://quirky-poincare-ae80a8.netlify.app/",
